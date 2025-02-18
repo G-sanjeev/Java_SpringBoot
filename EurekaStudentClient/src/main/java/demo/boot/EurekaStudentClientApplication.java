@@ -13,6 +13,7 @@ import org.springframework.web.client.RestTemplate;
 public class EurekaStudentClientApplication {
 
 	public static void main(String[] args) {
+		System.out.println("entered in eureka student client application");
 		SpringApplication.run(EurekaStudentClientApplication.class, args);
 	}
 	@Bean
